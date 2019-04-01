@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">나</a></li>
+            <li><a herf="">메일</a></li>
+            <li><a herf="">이미지</a></li>
+            <li><a herf="">앱</a></li>
+            <li><a herf="">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img class="google" src="http://www.bloter.net/wp-content/uploads/2019/01/google-logo-1-800x450.jpg" alt="">
+        <br><br>
+        <input type="text" class="search">
+        <br>
+        <button class="btn"><strong>google search</strong></button>
+        <button class="btn"><strong>hello world</strong></button>
+    </div>
+    <footer>
+            <nav class="foot-nav">
+                <ul class="item-left">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>About</li>
+                </ul>
+                <ul class="item-right">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+
+            </nav>
+        </footer>
+</body>
+</html>
+<style>
+    a {
+        all: unset;
+    }
+    ul{
+        all: unset;
+    }
+    .navbar{
+        text-align: right;
+    }
+    .navbar ul li{
+        display: inline;
+        margin-left: 10px; 
+    }
+    .container{
+        text-align: center;
+    }
+    .google{
+        width: 40%;
+        margin-top: 150px;
+    }
+    input{
+        all: unset;
+    }
+    .search{
+        text-align: left;
+        width: 500px;
+        height: 30px;
+        background-color: #ddd;
+        padding-left: 15px;
+        border-radius: 40px;
+        
+    }
+    .search:hover{
+        background-color: #eee;
+    }
+    .btn{
+        border-radius: 40px;
+        border-style: double;
+        background-color: #ddd;
+        font-size: 15px;
+    }
+    footer{
+        background-color: #eeeeee;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+    }
+    .foot-nav ul li{
+        display: inline;
+    }
+    .item-left{
+        float: left;
+    }
+    .item-right{
+        float: right;
+    }   
+</style>
